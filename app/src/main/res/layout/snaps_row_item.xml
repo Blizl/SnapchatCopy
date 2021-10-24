@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/unclicked_snap_image"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/unclicked_red_box"
+        />
+
+    <ImageView
+        android:id="@+id/clicked_snap_image"
+        android:layout_width="30dp"
+        android:visibility="gone"
+        android:layout_height="30dp"
+        android:src="@drawable/clicked_red_box"
+        />
+    <TextView
+        android:id="@+id/sender_textview"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Victor Liang"/>
+
+</LinearLayout>
